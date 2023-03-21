@@ -1,0 +1,59 @@
+.gradient {
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.gradient .gradient1 {
+    background: linear-gradient(to bottom, #0080ff, #00ff80);
+    transition: background 0.5s;
+}
+
+.gradient .gradient1:hover {
+    background: linear-gradient(to bottom, #ff0080, #80ff00);
+}
+
+.gradient .gradient2 {
+    background: linear-gradient(to right, #ff0080, #80ff00);
+    transition: background 0.5s;
+}
+
+.gradient .gradient2:hover {
+    background: linear-gradient(to right, #0080ff, #00ff80);
+}
+
+.gradient .gradient3 {
+    background: linear-gradient(to left, #0080ff, #00ff80);
+    transition: background 0.5s;
+}
+
+.gradient .gradient3:hover {
+    background: linear-gradient(to left, #ff0080, #80ff00);
+}
+
+.gradient .gradient4 {
+    background: linear-gradient(to top, #ff0080, #80ff00);
+    transition: background 0.5s;
+}
+
+.gradient .gradient4:hover {
+    background: linear-gradient(to top, #0080ff, #00ff80);
+}
+
+.gradient .gradient5 {
+    background: linear-gradient(45deg, #0080ff, #00ff80);
+    transition: background 0.5s;
+}
+
+.gradient .gradient5:hover {
+    background: linear-gradient(45deg, #ff0080, #80ff00);
+}
+
+.gradient .gradient6 {
+    background: radial-gradient(circle, #ff0080, #80ff00);
+    transition: background 0.5s;
+}
+
+.gradient .gradient6:hover {
+    background: radial-gradient(circle, #0080ff, #00ff80);
+}

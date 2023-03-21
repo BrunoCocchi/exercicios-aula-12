@@ -1,0 +1,19 @@
+.translate {
+    transform: translate(50px, 50px);
+}
+
+.rotate {
+    transform: rotate(5deg);
+}
+
+.rotate-x {
+    transform: rotateX(65deg);
+}
+
+.rotate-y {
+    transform: rotateY(65deg);
+}
+
+.rotate-z {
+    transform: rotateZ(25deg);
+}
